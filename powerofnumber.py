@@ -1,0 +1,8 @@
+M=input()
+N=input()
+print("Input:")
+print(M)
+print(N)
+G=(M**N)
+print("Output:")
+print(G)
