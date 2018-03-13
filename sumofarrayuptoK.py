@@ -1,6 +1,12 @@
-N=raw_input()
-K=raw_input()
-a=[1,2,3,4,5]
+N=input()
+K=input()
+a=[]
+i=1
+while i<=N:
+   a.append(i)
+   i=i+1
+print("Array of N integers is:")  
+print(a)
 sum=0
 for i in range(0,int(K)):
    sum=sum+a[i]
