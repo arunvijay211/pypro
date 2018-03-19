@@ -1,17 +1,12 @@
-num=input()
-order=len(str(num))
-sum=0
-temp=num
-while(temp>0):
-   digit=temp % 10
-   sum += digit ** order
-   temp //= 10
-   if(num==sum):
-      print(sum)
-      break
-   elif(num!=sum):
-      print("no")
-      break
-   
+n=int(input())
+print("Input: Enter any number:")
+print(n)
+a=list(map(int,str(n)))
+b=list(map(lambda x:x**3,a))
+print("Output:")
+if(sum(b)==n):
+    print("yes")
+else:
+    print("no")
    
    
