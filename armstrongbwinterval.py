@@ -1,8 +1,9 @@
-lower = input()
-upper = input()
+lower = 100
+upper = 2000
 print("Input:")
 print(lower)
 print(upper)
+print("Output:")
 for num in range(lower, upper + 1):
    order = len(str(num))
    sum = 0
@@ -12,7 +13,5 @@ for num in range(lower, upper + 1):
        sum += digit ** order
        temp //= 10
    if num == sum:
-       print("output:")
        print(num)
-       break
    
